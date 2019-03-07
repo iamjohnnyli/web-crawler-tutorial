@@ -65,7 +65,7 @@ class CarSpider(scrapy.Spider):
         pass
 
 ```
-Let's write our own code under ```def parse(self, response):```. You can check the code here.
+Let's write our own code under ```def parse(self, response):```. You can check the code [here](https://github.com/j84lee/web-crawler-example/blob/master/scrapy_craigslist/scrapy_craigslist/spiders/vacation_rentals.py_).
 
 ```python
 # -*- coding: utf-8 -*-
@@ -127,4 +127,4 @@ To put our spider to work, run ```crawl``` command in terminal or CMD:
 ```bash
 $ scrapy crawl vacation_rentals -o result-titles.csv
 ```
-```-o``` means out put data into file. ```result-titles.csv``` is the files' name.
+```-o``` means out put data into file. ```result-titles.csv``` is the files' name. you can check the result [here](https://github.com/j84lee/web-crawler-example/blob/master/scrapy_craigslist/result-titles.csv).
