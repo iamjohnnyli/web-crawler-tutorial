@@ -135,4 +135,4 @@ To put our spider to work, run ```crawl``` command in terminal or CMD:
 ```bash
 $ scrapy crawl vacation_rentals -o result-titles.csv
 ```
-```-o``` means out put data into file. ```result-titles.csv``` is the files' name. you can check the result [here](https://github.com/j84lee/web-crawler-example/blob/master/scrapy_craigslist/result-titles.csv).
+```-o``` means out put data into file. ```result-titles.csv``` is the files' name. 
